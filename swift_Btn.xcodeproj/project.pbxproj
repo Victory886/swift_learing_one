@@ -13,6 +13,7 @@
 		10C038752068B4A200983E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C038742068B4A200983E4A /* Assets.xcassets */; };
 		10C038782068B4A200983E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C038762068B4A200983E4A /* LaunchScreen.storyboard */; };
 		10C038872068E73B00983E4A /* readem.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C038862068E73B00983E4A /* readem.md */; };
+		10DBE9C4206D22BD001BBB41 /* NetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DBE9C3206D22BD001BBB41 /* NetWorking.swift */; };
 		A3F524DF5AC856148B4D1293 /* Pods_swift_Btn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC40FC99BE8CC48B3939A24 /* Pods_swift_Btn.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		10C038772068B4A200983E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10C038792068B4A200983E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C038862068E73B00983E4A /* readem.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readem.md; sourceTree = "<group>"; };
+		10DBE9C3206D22BD001BBB41 /* NetWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorking.swift; sourceTree = "<group>"; };
 		496A452C7674478030BFA286 /* Pods-swift_Btn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_Btn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift_Btn/Pods-swift_Btn.debug.xcconfig"; sourceTree = "<group>"; };
 		94EF3A0BFB127C95EEC7E634 /* Pods-swift_Btn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_Btn.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_Btn/Pods-swift_Btn.release.xcconfig"; sourceTree = "<group>"; };
 		CAC40FC99BE8CC48B3939A24 /* Pods_swift_Btn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_Btn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				10C038862068E73B00983E4A /* readem.md */,
 				10C0386D2068B4A200983E4A /* AppDelegate.swift */,
 				10C0386F2068B4A200983E4A /* ViewController.swift */,
+				10DBE9C3206D22BD001BBB41 /* NetWorking.swift */,
 				10C038712068B4A200983E4A /* Main.storyboard */,
 				10C038742068B4A200983E4A /* Assets.xcassets */,
 				10C038762068B4A200983E4A /* LaunchScreen.storyboard */,
@@ -225,6 +228,7 @@
 			files = (
 				10C038702068B4A200983E4A /* ViewController.swift in Sources */,
 				10C0386E2068B4A200983E4A /* AppDelegate.swift in Sources */,
+				10DBE9C4206D22BD001BBB41 /* NetWorking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import Alamofire
 
 class ViewController: UIViewController {
     
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
+        let net = NetWorking()
+        net.testNet()
+
+    
         initWithView()
         initWithBtn()
     }
@@ -67,6 +72,13 @@ class ViewController: UIViewController {
         btn.isSelected = false
         return btn
     }
+    
+    
+    
+        
+    }
+    
+    
    
     @objc private func buttonAction(btn:UIButton) -> Void {
         
