@@ -21,8 +21,14 @@ class ViewController: UIViewController {
         
         let net = NetWorking()
         net.testNet()
+        let b = Block()
+        b.click()
+        b.callBlock{(value: String?) ->Void in
+            
+            print(value!)
+        }
+        
 
-    
         initWithView()
         initWithBtn()
     }
@@ -64,7 +70,7 @@ class ViewController: UIViewController {
     lazy var createBtn = {()->UIButton in
         
         let btn = UIButton(type:.custom)
-        btn.setTitle("d123456789", for: .normal)
+        btn.setTitle("touch me change color", for: .normal)
         btn .setTitleColor(.black, for: .normal)
         btn.backgroundColor = .green
         btn.addTarget(self, action:#selector(self.buttonAction), for: .touchUpInside)
@@ -74,12 +80,6 @@ class ViewController: UIViewController {
     }
     
     
-    
-        
-    }
-    
-    
-   
     @objc private func buttonAction(btn:UIButton) -> Void {
         
         print("do nothine")
